@@ -82,13 +82,13 @@ async def upgrade(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.filters.command(["source"]))
+@pyrogram.Client.on_message(pyrogram.filters.command(["about"]))
 async def help_user(bot, update):
     # logger.info(update)
-    TRChatBase(update.from_user.id, update.text, "/source")
+    TRChatBase(update.from_user.id, update.text, "/about")
     await bot.send_message(
         chat_id=update.chat.id,
-        text=Translation.SOURCE,
+        text=Translation.ABOUT_TEXT,
         parse_mode="html",
         disable_web_page_preview=True,
         reply_to_message_id=update.message_id
