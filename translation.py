@@ -145,3 +145,23 @@ URL | filename | username | password</b>"""
     INVALID_UPLOAD_BOT_URL_FORMAT = "<b>URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension</b>"
     ABUSIVE_USERS = "<b>You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction.</b>"
     FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "Holy Shit!!"
+    INVALID_UPLOAD_BOT_URL_FORMAT = "<b>URL format is incorrect. make sure your url starts with either http:// or https://. You can set custom file name using the format link | file_name.extension</b>"
+    ABUSIVE_USERS = "<b>You are not allowed to use this bot. If you think this is a mistake, please check /me to remove this restriction.</b>"
+    FF_MPEG_RO_BOT_AD_VER_TISE_MENT = "Holy Shit!!"
+    EXTRACT_ZIP_INTRO_ONE = "Send a compressed file first, Then reply /unzip command to the file."
+    EXTRACT_ZIP_INTRO_THREE = "Analyzing received file. ⚠️ This might take some time. Please be patient. "
+    UNZIP_SUPPORTED_EXTENSIONS = ("zip", "rar")
+    EXTRACT_ZIP_ERRS_OCCURED = "Sorry. Errors occurred while processing compressed file. Please check everything again twice."
+    EXTRACT_ZIP_STEP_TWO = """Select file_name to upload from the below options.
+You can use /rename command after receiving file to rename it with custom thumbnail support."""
+    CANCEL_STR = "Process Cancelled"
+    ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
+    FREE_USER_LIMIT_Q_SZE = """Cannot Process.
+ users only 1 request per 5 minutes.
+/upgrade or Try 300 seconds later."""
+    SLOW_URL_DECED = "Gosh That Seems To Be A Very Slow URL. Since You Were Screwing My Home, I Am In No Mood To Download This File. Meanwhile, Why Don't You Get Me A Fast URL So That I can Upload To Telegram, Without Me Slowing Down For Other Users."
+    IFLONG_FILE_NAME = """File Name limit allowed by Telegram is {alimit} characters.
+The given file name has {num} characters.
+
+<b>Essays Not allowed in Telegram file name!</b>
+Please short your file name and try again!"""
