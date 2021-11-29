@@ -5,7 +5,7 @@ hachoir
 numpy
 Pillow
 pyrogram==1.0.7
-https://github.com/prgofficial/pyrogram/archive/asyncio.zip
+Pyrogram
 requests
 tgcrypto
 yt-dlp
